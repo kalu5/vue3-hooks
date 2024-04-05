@@ -1,6 +1,6 @@
 {
   "name": "@kalu5/vue_hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is vue3 hooks utils",
   "repository": "https://github.com/kalu5/vue_hooks",
   "main": "dist/index.js",

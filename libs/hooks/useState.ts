@@ -1,6 +1,7 @@
 import { ref } from 'vue'
 import type { Ref } from 'vue'
 import { SetStateSetter } from '../types/index'
+import { isFunc } from '../utils/index'
 
 export default function useState<T>(init: T) {
   const _state = createState<T>(init);
@@ -14,10 +15,6 @@ function createState<T>(init: T) {
 
 function createStateSetter<T>(state: Ref<T>) {
   return function<U extends T | Function > (newState: U) {
-    if (typeof newState === 'function') {
-      state.value = newState(state)
-    } else {
-      state.value = newState as T
-    }
+    state.value = isFunc<U>(newState) ? (newState as unknown as Function )(state) : newState as T
   }
 }
