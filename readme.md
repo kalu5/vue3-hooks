@@ -1,4 +1,4 @@
-<h1 style="text-align: center; -webkit-text-fill-color: transparent; background-image: -webkit-linear-gradient(315deg, rgb(66, 211, 146) 25%, rgb(100, 126, 255));">
+<h1>
   Vue3 hooks utils .
 </h1>
 
@@ -6,16 +6,25 @@
   This is vue3 hooks utils . You can use it just like react .
 </p>
 
-# useState
+# Use
 
-eg:
 ``` bash
 pnpm i @kalu5/vue_hooks
 ```
-``` ts
+
+## useState
+
+eg:
+``` vue
+<template>
+  <h1>{{ state }}</h1>
+  <button @click="setState((state) => state.value + 1)">Add</button>
+  <button @click="setState((state) => state.value - 1)">Minus</button>
+</template>
+<script setup lang="ts">
 import { useState } from '@kalu5/vue_hooks'
 const [state, setState] = useState(0)
-setState(2)
+</script>
 ```
 
 
