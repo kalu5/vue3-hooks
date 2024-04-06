@@ -1,2 +1,1 @@
-
-export type SetStateSetter<U> = (newState: U) => void;
+export type SetStateSetter<U> = (newState: U) => void
