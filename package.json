@@ -1,7 +1,7 @@
 {
   "name": "@kalu5/vue_hooks",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "This is vue3 hooks utils",
   "author": "lujialong",
