@@ -21,8 +21,8 @@
     "build": "rollup -c",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepares": "husky install",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.4.21"
