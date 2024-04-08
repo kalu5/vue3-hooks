@@ -21,8 +21,8 @@
     "build": "rollup -c",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "commit": "npx git-cz",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "vue": "^3.4.21"
@@ -35,8 +35,6 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-typescript": "^11.1.6",
     "@vitejs/plugin-vue": "^5.0.4",
-    "commitizen": "^4.3.0",
-    "commitlint-config-cz": "^0.13.3",
     "eslint": "^9.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
@@ -48,10 +46,5 @@
   },
   "lint-staged": {
     "*.ts": "eslint . --fix"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
