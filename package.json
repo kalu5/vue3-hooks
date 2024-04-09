@@ -7,6 +7,10 @@
   "author": "lujialong",
   "license": "ISC",
   "repository": "https://github.com/kalu5/vue_hooks",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "provenance": "true"
+  },
   "keywords": [
     "vue3",
     "hooks"
