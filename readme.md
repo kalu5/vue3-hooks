@@ -31,3 +31,28 @@ const [state, setState] = useState(0)
   </button>
 </template>
 ```
+
+## useReducer
+
+eg:
+``` vue
+<script setup lang="ts">
+import { useReducer } from '@kalu5/vue_hooks'
+function reducer(state, action) {
+  if (action.type === 'add')
+    return state.value + 1
+  return state.value - 1
+}
+const [state, dispatch] = useReducer(reducer, 1)
+</script>
+
+<template>
+  <h1>{{ state }}</h1>
+  <button @click="dispatch({ type: 'add' })">
+    Add
+  </button>
+  <button @click="dispatch({ type: 'minus' })">
+    Minus
+  </button>
+</template>
+```
