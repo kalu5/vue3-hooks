@@ -1,12 +1,12 @@
 {
   "name": "@kalu5/vue3-hooks",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "private": false,
   "description": "This is vue3 hooks utils",
   "author": "lujialong",
   "license": "ISC",
-  "repository": "https://github.com/kalu5/vue_hooks",
+  "repository": "https://github.com/kalu5/vue3-hooks",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "provenance": "true"
