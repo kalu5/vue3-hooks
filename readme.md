@@ -1,10 +1,18 @@
 <h1>
-  Vue3 hooks utils .
+  Vue3 hooks .
 </h1>
 
-<p>
-  This is vue3 hooks utils , You can use it just like react .
-</p>
+[![npm package](https://img.shields.io/npm/v/@kalu5/vue3-hooks.svg)](https://www.npmjs.org/package/@kalu5/vue3-hooks)
+[![npm download](https://img.shields.io/npm/dt/@kalu5/vue3-hooks.svg)](https://www.npmjs.org/package/@kalu5/vue3-hooks)
+[![github license](https://img.shields.io/github/license/kalu5/vue3-hooks.svg)](https://github.com/kalu5/vue3-hooks/main/LICENSE)
+[![github issues open](https://img.shields.io/github/issues/kalu5/vue3-hooks.svg)](https://github.com/kalu5/vue3-hooks/issues?q=is%3Aopen+is%3Aissue)
+[![github issues closed](https://img.shields.io/github/issues-closed/kalu5/vue3-hooks.svg)](https://github.com/kalu5/vue3-hooks/issues?q=is%3Aissue+is%3Aclosed)
+![github language top](https://img.shields.io/github/languages/top/kalu5/vue3-hooks.svg)
+[![github stars](https://img.shields.io/github/stars/kalu5/vue3-hooks.svg?style=social&label=Stars)](https://github.com/kalu5/vue3-hooks)
+
+[![NPM](https://nodei.co/npm/@kalu5/vue3-hooks.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@kalu5/vue3-hooks)
+
+> Using vue3.x composition api in react-hooks style.
 
 **Advantage:**
 
